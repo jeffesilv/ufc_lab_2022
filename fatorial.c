@@ -18,7 +18,7 @@ int main()
   int v[v_size];
   int y,x;
 
-  //set all vector's position with 1.
+  //set all vector's positions with 1.
   for(y=0;y<10;y=y+1)
     v[y] = 1;
 
