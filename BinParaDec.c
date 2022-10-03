@@ -49,7 +49,6 @@ int main()
 
    if(i<=(bit_vetor_valor-1))
    {
-   //config_bits
         for(indice=0;indice<(Largura_Do_Bit);indice++)
         {
             p = x;
@@ -62,8 +61,7 @@ int main()
         for(y=indice;y>0;y=y-1)
         {
             copi_bit_vetor[y] = bit_vetor[y-1];
-            //printf("%d\n", copi_bit_vetor[y]);
-
+           
             if(copi_bit_vetor[y]==0)
             {
                 printf("%c", zero);
