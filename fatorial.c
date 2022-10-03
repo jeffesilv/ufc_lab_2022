@@ -28,7 +28,6 @@ int main()
       v[x+1] = v[x] * x;
       //If x = 10 and you don't have instruction in line 28,
       //then you get 1 from 10 instead of (10!).
-      //v[x+1] = v[x]*x;
       v[x] = v[x]*x;
       printf("%d\n", v[x]);
     }
