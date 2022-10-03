@@ -24,7 +24,7 @@ int main()
 
     for(x=1;x<=10;x=x+1)
     {
-      //push the vector possition forward, so that next wouldn't be (x * 1), which of course is 'x'.
+      //push the vector possition +1 forward, so that next wouldn't be (x * 1), which of course is 'x'.
       v[x+1] = v[x] * x;
       //If x = 10 and you don't have instruction in line 28,
       //then you get 1 from 10 instead of (10!).
